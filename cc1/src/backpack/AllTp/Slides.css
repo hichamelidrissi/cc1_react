@@ -1,0 +1,69 @@
+#window{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+#conteneur{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+#back{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#next{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #ffcc00;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight:bold;
+    color: white;
+    background-color: black;
+}
+#imgPosition{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daeira{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    border-radius: 50%;
+    /* padding: 2px; */
+    background-color: rgb(107, 107, 107);
+}
+.selected{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}

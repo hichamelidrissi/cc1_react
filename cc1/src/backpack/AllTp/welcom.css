@@ -1,0 +1,42 @@
+/* welcomePage.css */
+body {
+  /* margin: 0;
+  height: 100vh; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+  background-size: 400% 400%;
+  animation: rainbow 10s linear infinite;
+  background-repeat: no-repeat;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.welcome-container {
+    /* width: 50%; */
+    z-index: 100;
+    text-align: center;
+    padding: 50px;
+    /* background-color: #ffffff; Set your desired background color */
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size:x-large;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
